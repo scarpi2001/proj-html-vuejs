@@ -40,7 +40,7 @@ export default {
         <div class="cards">
             <!-- card -->
             <div class="card" v-for="(card, index) in cards" :key="index">
-                <div>
+                <div class="icon">
                     <font-awesome-icon :icon="card.icon" />
                 </div>
                 <h3>{{ card.title }}</h3>
@@ -55,37 +55,39 @@ export default {
 <style lang="scss" scoped>
 @use "../../styles/partials/variables" as*;
 
-.text {
-    h1 {
-        margin-bottom: 20px;
-    }
-}
+
 
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
 
-.cards {
-    display: flex;
-    margin: 50px 0;
-
-    .card {
-        background-color: #fff;
-        border-radius: 15px;
-        padding: 30px 15px;
-        margin-right: 20px;
-
-        div {
-            font-size: 24px;
-            color: $secondary;
+    .text {
+        h1 {
+            margin-bottom: 20px;
         }
+    }
 
-        h3 {
-            margin: 15px 0;
+    .cards {
+        display: flex;
+        margin: 50px 0;
+
+        .card {
+            background-color: #fff;
+            border-radius: 15px;
+            padding: 30px 15px;
+            margin-right: 20px;
+
+            .icon {
+                font-size: 24px;
+                color: $secondary;
+            }
+
+            h3 {
+                margin: 15px 0;
+            }
+
         }
-
     }
 }
 </style>
