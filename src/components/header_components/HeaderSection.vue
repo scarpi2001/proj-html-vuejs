@@ -39,22 +39,6 @@ p {
 
 #buttons_box {
     display: flex;
-
-    .button {
-        padding: 10px 20px;
-        border-radius: 20px;
-        cursor: pointer;
-    }
-
-    .button.blue {
-        background-color: #556EED;
-        margin-left: 30px;
-    }
-
-    .button.yellow {
-        background-color: $secondary;
-
-    }
 }
 </style>
 

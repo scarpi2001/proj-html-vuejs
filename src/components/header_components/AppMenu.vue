@@ -13,6 +13,7 @@ export default {
 </script>
 
 <template>
+    <!-- menu -->
     <ul>
         <li v-for="(link, index) in store.links" :key="index">
             <a :class="{ active: link.current }" :href="link.url">

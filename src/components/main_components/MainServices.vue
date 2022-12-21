@@ -32,6 +32,7 @@ export default {
 </script>
 
 <template>
+    <!-- container -->
     <div class="container">
         <div class="text">
             <h1>See Our Top Notch Services</h1>

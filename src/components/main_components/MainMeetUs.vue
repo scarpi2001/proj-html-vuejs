@@ -27,6 +27,7 @@ export default {
 </script>
 
 <template>
+    <!-- container -->
     <div class="container">
         <div class="text">
             <h1>Meet The New Agency SEO Template From The Avada Team</h1>

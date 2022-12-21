@@ -14,7 +14,7 @@ export default {
 
 <template>
   <header>
-
+    <!-- nav -->
     <nav>
       <img src="../assets/images/logo_seo_w_1x.png" alt="">
       <AppMenu />

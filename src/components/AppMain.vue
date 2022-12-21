@@ -1,23 +1,33 @@
 <script>
 import MainMeetUs from './main_components/MainMeetUs.vue'
 import MainServices from './main_components/MainServices.vue'
+import MainOurWork from './main_components/MainOurWork.vue'
 
 export default {
     name: "AppMain",
     components: {
         MainMeetUs,
         MainServices,
+        MainOurWork,
     }
 }
 
 </script>
 
 <template>
+    <!-- sezione MeetUs -->
     <section class="main_section white special">
         <MainMeetUs />
     </section>
+
+    <!-- sezione Services -->
     <section class="main_section blue normal">
         <MainServices />
+    </section>
+
+    <!-- sezione OurWork -->
+    <section class="main_section white normal">
+        <MainOurWork />
     </section>
 </template>
 
