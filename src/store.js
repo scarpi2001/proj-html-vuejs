@@ -5,7 +5,7 @@ export const store = reactive({
         {
             text: "Home",
             url: "#",
-            current: false,
+            current: true,
         },
         {
             text: "Who We Are",
@@ -36,20 +36,6 @@ export const store = reactive({
             text: "Get In Touch Now",
             url: "#",
             current: false,
-        },
-    ],
-    testimonials: [
-        {
-            name: "Luis Desalvo",
-            agency: "CREO TECH",
-            review: "abilty proceeds from a fusion of skills, knowledge, understanding and imagination, consolidated by experience",
-            img: "./assets/img/testimonials-2.jpg",
-        },
-        {
-            name: "Linda Morini",
-            agency: "MEGA TECH",
-            review: "abilty proceeds from a fusion of skills, knowledge, understanding and imagination, consolidated by experience",
-            img: "./assets/img/testimonials-1.jpg",
         },
     ],
 })

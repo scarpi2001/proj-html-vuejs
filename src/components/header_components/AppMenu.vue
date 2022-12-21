@@ -2,7 +2,7 @@
 import { store } from '../../store';
 
 export default {
-    name: "AppNav",
+    name: "AppMenu",
     data() {
         return {
             store,
@@ -42,6 +42,11 @@ ul {
                 color: $secondary;
             }
         }
+
+    }
+
+    .active {
+        color: $secondary;
 
     }
 

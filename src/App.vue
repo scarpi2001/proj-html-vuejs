@@ -13,6 +13,10 @@ export default {
 
 <template>
   <AppHeader />
+
+  <main>
+
+  </main>
 </template>
 
 <style lang="scss">

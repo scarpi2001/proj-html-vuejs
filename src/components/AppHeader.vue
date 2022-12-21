@@ -1,11 +1,11 @@
 <script>
-import AppNav from './header_components/AppNav.vue'
+import AppMenu from './header_components/AppMenu.vue'
 import HeaderSection from './header_components/HeaderSection.vue'
 
 export default {
   name: "AppHeader",
   components: {
-    AppNav,
+    AppMenu,
     HeaderSection,
   },
 }
@@ -15,12 +15,15 @@ export default {
 <template>
   <header>
 
-    <div class="container">
+    <nav>
       <img src="../assets/images/logo_seo_w_1x.png" alt="">
-      <AppNav />
-    </div>
+      <AppMenu />
+    </nav>
 
-    <HeaderSection />
+    <section class="container">
+      <HeaderSection />
+    </section>
+
   </header>
 </template>
 
@@ -33,10 +36,19 @@ header {
   background-size: cover;
   color: $primary;
 
-  .container {
+  nav {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 80px;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    height: calc(100% - 80px);
   }
 }
 </style>
