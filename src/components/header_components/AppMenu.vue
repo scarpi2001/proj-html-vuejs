@@ -32,7 +32,7 @@ ul {
     li {
         display: flex;
         align-items: center;
-        margin: 0 15px;
+        margin: 0 10px;
 
         a {
             color: $primary;

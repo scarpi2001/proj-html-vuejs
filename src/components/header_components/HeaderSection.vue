@@ -7,7 +7,7 @@ export default {
 
 <template>
 
-    <div id="text_box">
+    <div class="text">
         <h1>SEM Camapaigns Made Simple With Avada</h1>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos odio sint aliquid itaque tenetur
@@ -29,35 +29,31 @@ export default {
 <style lang="scss" scoped>
 @use "../../styles/partials/variables" as*;
 
-#text_box {
-    width: 40%;
+h1 {
+    font-size: 44px;
+}
 
-    h1 {
-        font-size: 44px;
+p {
+    margin: 30px 0;
+}
+
+#buttons_box {
+    display: flex;
+
+    .button {
+        padding: 10px 20px;
+        border-radius: 20px;
+        cursor: pointer;
     }
 
-    p {
-        margin: 30px 0;
+    .button.blue {
+        background-color: #556EED;
+        margin-left: 30px;
     }
 
-    #buttons_box {
-        display: flex;
+    .button.yellow {
+        background-color: $secondary;
 
-        .button {
-            padding: 10px 20px;
-            border-radius: 20px;
-            cursor: pointer;
-        }
-
-        .button.blue {
-            background-color: #556EED;
-            margin-left: 30px;
-        }
-
-        .button.yellow {
-            background-color: $secondary;
-
-        }
     }
 }
 </style>
