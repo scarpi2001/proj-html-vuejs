@@ -102,6 +102,7 @@ export default {
 
 
 .container {
+    display: block;
     position: relative;
 
     h1 {
@@ -140,7 +141,7 @@ export default {
         .next {
             font-size: 28px;
             position: absolute;
-            top: 60%;
+            top: 65%;
             cursor: pointer;
         }
 
@@ -159,7 +160,7 @@ export default {
         margin-top: 50px;
 
         figure {
-            width: 80px;
+            min-width: 80px;
             margin: 0 80px;
         }
     }

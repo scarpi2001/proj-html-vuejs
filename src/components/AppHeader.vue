@@ -14,12 +14,14 @@ export default {
 
 <template>
   <header>
+
     <!-- nav -->
     <nav>
       <img src="../assets/images/logo_seo_w_1x.png" alt="">
       <AppMenu />
     </nav>
 
+    <!-- header bottom -->
     <section class="container">
       <HeaderSection />
     </section>
@@ -46,8 +48,7 @@ header {
   }
 
   .container {
-    display: flex;
-    align-items: center;
+    flex-direction: row;
     height: calc(100% - 80px);
   }
 }

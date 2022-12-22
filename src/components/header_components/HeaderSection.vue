@@ -8,7 +8,7 @@ export default {
 <template>
 
     <div class="text">
-        <h1>SEM Camapaigns Made Simple With Avada</h1>
+        <h1>SEM Campaigns Made Simple With Avada</h1>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos odio sint aliquid itaque tenetur
             sunt.

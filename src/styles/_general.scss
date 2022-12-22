@@ -11,7 +11,18 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
+.normal {
+    padding: 60px 0;
+}
+
+.special {
+    padding-top: 60px;
+}
+
 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 1000px;
     margin: 0 auto;
 }

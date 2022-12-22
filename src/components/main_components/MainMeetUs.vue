@@ -59,9 +59,6 @@ export default {
 
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
     .text {
         h1 {

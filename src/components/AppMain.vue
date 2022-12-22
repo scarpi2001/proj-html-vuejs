@@ -5,6 +5,7 @@ import MainOurWork from './main_components/MainOurWork.vue'
 import MainPlans from './main_components/MainPlans.vue'
 import MainNews from './main_components/MainNews.vue'
 import MainClients from './main_components/MainClients.vue'
+import MainConsultation from './main_components/MainConsultation.vue'
 
 export default {
     name: "AppMain",
@@ -15,6 +16,7 @@ export default {
         MainPlans,
         MainNews,
         MainClients,
+        MainConsultation,
     }
 }
 
@@ -37,7 +39,7 @@ export default {
     </section>
 
     <!-- sezione plans -->
-    <section class="main_section background normal">
+    <section class="main_section plans normal">
         <MainPlans />
     </section>
 
@@ -46,8 +48,14 @@ export default {
         <MainNews />
     </section>
 
+    <!-- sezione clients -->
     <section class="main_section normal">
         <MainClients />
+    </section>
+
+    <!-- sezione consultations -->
+    <section class="main_section consult">
+        <MainConsultation />
     </section>
 </template>
 
@@ -56,10 +64,6 @@ export default {
 
 .main_section {
     text-align: center;
-}
-
-.main_section.special {
-    padding-top: 60px;
 }
 
 .main_section.white {
@@ -71,13 +75,14 @@ export default {
     background-color: #051642;
 }
 
-.main_section.background {
+.main_section.plans {
     background-image: url(../assets/images/background1.jpg);
     background-size: cover;
 }
 
-.main_section.normal {
-    padding: 60px 0;
+.main_section.consult {
+    background-image: url(../assets/images/CTA-seo-1.jpg);
+    background-size: cover;
 }
 </style>
 
