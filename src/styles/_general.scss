@@ -26,7 +26,8 @@ img {
 
 .button {
     font-size: 14px;
-    color: $primary;
+    color: #57585D;
+    border: 2px solid #57585D;
     padding: 10px 20px;
     border-radius: 20px;
     cursor: pointer;
@@ -35,9 +36,12 @@ img {
 .button.blue {
     background-color: #556EED;
     margin-left: 30px;
+    color: $primary;
+    border: none;
 }
 
 .button.yellow {
     background-color: $secondary;
-
+    color: $primary;
+    border: none;
 }

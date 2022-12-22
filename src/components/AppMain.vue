@@ -2,6 +2,7 @@
 import MainMeetUs from './main_components/MainMeetUs.vue'
 import MainServices from './main_components/MainServices.vue'
 import MainOurWork from './main_components/MainOurWork.vue'
+import MainPlans from './main_components/MainPlans.vue'
 
 export default {
     name: "AppMain",
@@ -9,6 +10,7 @@ export default {
         MainMeetUs,
         MainServices,
         MainOurWork,
+        MainPlans,
     }
 }
 
@@ -28,6 +30,11 @@ export default {
     <!-- sezione OurWork -->
     <section class="main_section white normal">
         <MainOurWork />
+    </section>
+
+    <!-- sezione plans -->
+    <section class="main_section background normal">
+        <MainPlans />
     </section>
 </template>
 
@@ -49,6 +56,11 @@ export default {
 .main_section.blue {
     background-image: url(../assets/images/pattern_background.png);
     background-color: #051642;
+}
+
+.main_section.background {
+    background-image: url(../assets/images/background1.jpg);
+    background-size: cover;
 }
 
 .main_section.normal {
