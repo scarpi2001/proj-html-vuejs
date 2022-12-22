@@ -152,7 +152,7 @@ export default {
                 }
 
                 #mini_text {
-                    color: #5E5F64;
+                    color: $tertiary;
                     font-size: 12px;
                     font-style: italic;
                 }
@@ -160,7 +160,7 @@ export default {
 
             .card_text {
                 font-size: 14px;
-                color: #5E5F64;
+                color: $tertiary;
             }
         }
     }

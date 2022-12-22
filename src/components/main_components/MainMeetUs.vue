@@ -67,6 +67,10 @@ export default {
         h1 {
             margin-bottom: 20px;
         }
+
+        p {
+            color: $tertiary;
+        }
     }
 
     .cards {
@@ -86,6 +90,10 @@ export default {
 
             h3 {
                 margin: 15px 0;
+            }
+
+            p {
+                color: $tertiary;
             }
 
         }

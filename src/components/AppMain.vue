@@ -3,6 +3,7 @@ import MainMeetUs from './main_components/MainMeetUs.vue'
 import MainServices from './main_components/MainServices.vue'
 import MainOurWork from './main_components/MainOurWork.vue'
 import MainPlans from './main_components/MainPlans.vue'
+import MainNews from './main_components/MainNews.vue'
 
 export default {
     name: "AppMain",
@@ -11,6 +12,7 @@ export default {
         MainServices,
         MainOurWork,
         MainPlans,
+        MainNews,
     }
 }
 
@@ -35,6 +37,11 @@ export default {
     <!-- sezione plans -->
     <section class="main_section background normal">
         <MainPlans />
+    </section>
+
+    <!-- sezione news -->
+    <section class="main_section white normal">
+        <MainNews />
     </section>
 </template>
 
