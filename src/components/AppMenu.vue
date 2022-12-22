@@ -1,21 +1,54 @@
 <script>
-import { store } from '../store';
-
 export default {
     name: "AppMenu",
     data() {
         return {
-            store,
+            links: [
+                {
+                    text: "Home",
+                    url: "#",
+                    current: true,
+                },
+                {
+                    text: "Who We Are",
+                    url: "#",
+                    current: false,
+                },
+                {
+                    text: "What We Do",
+                    url: "#",
+                    current: false,
+                },
+                {
+                    text: "Where We Work",
+                    url: "#",
+                    current: false,
+                },
+                {
+                    text: "Careers",
+                    url: "#",
+                    current: false,
+                },
+                {
+                    text: "News",
+                    url: "#",
+                    current: false,
+                },
+                {
+                    text: "Get In Touch Now",
+                    url: "#",
+                    current: false,
+                },
+            ],
         }
     }
 }
-
 </script>
 
 <template>
     <!-- menu -->
     <ul>
-        <li v-for="(link, index) in store.links" :key="index">
+        <li v-for="(link, index) in links" :key="index">
             <a :class="{ active: link.current }" :href="link.url">
                 {{ link.text }}
             </a>
