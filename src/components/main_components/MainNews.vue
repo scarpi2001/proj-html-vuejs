@@ -18,7 +18,7 @@ export default {
                 },
                 {
                     title: "Image Optimization For Your Site",
-                    img: "../../src/assets/images/related-service-4-320x202.jpg",
+                    img: "../../src/assets/images/blog-post-6-320x202.jpg",
                     date: "November 22, 2022",
                     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, facere optio nostrum consectetur"
                 },
@@ -78,9 +78,6 @@ export default {
     }
 
     .cards {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 50px 0;
         color: $tertiary;
 
         .card {

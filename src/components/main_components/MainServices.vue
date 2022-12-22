@@ -76,13 +76,12 @@ export default {
     }
 
     .cards {
-        display: flex;
-        margin: 50px 0;
 
         .card {
+            width: calc(25% - 20px);
             background-color: #071B50;
             padding: 40px 10px;
-            margin-right: 25px;
+            margin: 0 10px;
 
             .icon {
                 font-size: 24px;

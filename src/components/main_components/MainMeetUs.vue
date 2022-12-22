@@ -71,14 +71,13 @@ export default {
     }
 
     .cards {
-        display: flex;
-        margin: 50px 0;
 
         .card {
+            width: calc(100% / 3 - 40px);
             background-color: #fff;
             border-radius: 15px;
             padding: 30px 15px;
-            margin-right: 20px;
+            margin: 20px;
 
             .icon {
                 font-size: 24px;

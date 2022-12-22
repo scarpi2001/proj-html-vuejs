@@ -74,15 +74,9 @@ export default {
         }
     }
 
-    .cards {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 50px 0;
-
-        .card {
-            width: calc(100% / 3 - 10px);
-            margin: 5px;
-        }
+    .card {
+        width: calc(100% / 3 - 10px);
+        margin: 5px;
     }
 }
 </style>

@@ -110,8 +110,6 @@ export default {
     }
 
     .cards {
-        display: flex;
-        margin: 50px 0;
 
         .card {
             width: calc(25% - 10px);
