@@ -4,6 +4,7 @@ import MainServices from './main_components/MainServices.vue'
 import MainOurWork from './main_components/MainOurWork.vue'
 import MainPlans from './main_components/MainPlans.vue'
 import MainNews from './main_components/MainNews.vue'
+import MainClients from './main_components/MainClients.vue'
 
 export default {
     name: "AppMain",
@@ -13,6 +14,7 @@ export default {
         MainOurWork,
         MainPlans,
         MainNews,
+        MainClients,
     }
 }
 
@@ -42,6 +44,10 @@ export default {
     <!-- sezione news -->
     <section class="main_section white normal">
         <MainNews />
+    </section>
+
+    <section class="main_section normal">
+        <MainClients />
     </section>
 </template>
 

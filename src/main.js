@@ -11,8 +11,10 @@ import { faGear as fasGear } from '@fortawesome/free-solid-svg-icons'
 import { faBuilding as fasBuilding } from '@fortawesome/free-solid-svg-icons'
 import { faChartColumn as fasChartColumn } from '@fortawesome/free-solid-svg-icons'
 import { faDollarSign as fasDollarSign } from '@fortawesome/free-solid-svg-icons'
+import { faAnglesLeft as fasAnglesLeft } from '@fortawesome/free-solid-svg-icons'
+import { faAnglesRight as fasAnglesRight } from '@fortawesome/free-solid-svg-icons'
 
 
-library.add(fasRoad, fasVideo, fasDroplet, fabGoogle, fasGear, fasBuilding, fasChartColumn, fasDollarSign)
+library.add(fasRoad, fasVideo, fasDroplet, fabGoogle, fasGear, fasBuilding, fasChartColumn, fasDollarSign, fasAnglesLeft, fasAnglesRight)
 createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app')
 
