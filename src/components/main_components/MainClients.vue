@@ -1,11 +1,6 @@
 <script>
-import AppSponsors from './clients_components/AppSponsors.vue'
-
 export default {
     name: "MainClients",
-    components: {
-        AppSponsors,
-    },
     data() {
         return {
             active: 0,
@@ -25,15 +20,19 @@ export default {
             ],
             sponsors: [
                 {
+                    name: "sponsor-1",
                     img: "../../src/assets/images/clients_partner_1-200x202.png"
                 },
                 {
+                    name: "sponsor-2",
                     img: "../../src/assets/images/clients_partner_2-200x202.png"
                 },
                 {
+                    name: "sponsor-3",
                     img: "../../src/assets/images/clients_partner_3-200x202.png"
                 },
                 {
+                    name: "sponsor-4",
                     img: "../../src/assets/images/clients_partner_4-200x202.png"
                 },
             ]
@@ -87,8 +86,10 @@ export default {
         </div>
 
         <!-- sponsors -->
-        <div>
-            <AppSponsors />
+        <div id="sponsors">
+            <figure v-for="(sponsor, index) in sponsors" :key="index">
+                <img :src="sponsor.img" :alt="sponsor.name">
+            </figure>
         </div>
 
     </div>
@@ -108,7 +109,8 @@ export default {
     }
 
     #slider {
-
+        padding-bottom: 100px;
+        border-bottom: 1px solid rgb(197, 197, 197);
 
         img {
             width: 130px;
@@ -134,11 +136,9 @@ export default {
             }
         }
 
-
-
         .prev,
         .next {
-            font-size: 20px;
+            font-size: 28px;
             position: absolute;
             top: 60%;
             cursor: pointer;
@@ -150,6 +150,17 @@ export default {
 
         .next {
             right: 0px;
+        }
+    }
+
+    #sponsors {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+
+        figure {
+            width: 80px;
+            margin: 0 80px;
         }
     }
 }
