@@ -1,5 +1,5 @@
 <script>
-import { store } from '../../store';
+import { store } from '../store';
 
 export default {
     name: "AppMenu",
@@ -24,7 +24,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use "../../styles/partials/variables" as*;
+@use "../styles/partials/variables" as*;
 
 ul {
     display: flex;
@@ -36,7 +36,6 @@ ul {
         margin: 0 10px;
 
         a {
-            color: $primary;
             text-decoration: none;
 
             &:hover {
@@ -48,7 +47,6 @@ ul {
 
     .active {
         color: $secondary;
-
     }
 
 }

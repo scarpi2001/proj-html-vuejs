@@ -13,8 +13,14 @@ import { faChartColumn as fasChartColumn } from '@fortawesome/free-solid-svg-ico
 import { faDollarSign as fasDollarSign } from '@fortawesome/free-solid-svg-icons'
 import { faAnglesLeft as fasAnglesLeft } from '@fortawesome/free-solid-svg-icons'
 import { faAnglesRight as fasAnglesRight } from '@fortawesome/free-solid-svg-icons'
+import { faFacebookF as fasFacebookF } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter as fasTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram as fasInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faYoutube as fasYoutube } from '@fortawesome/free-brands-svg-icons'
 
 
-library.add(fasRoad, fasVideo, fasDroplet, fabGoogle, fasGear, fasBuilding, fasChartColumn, fasDollarSign, fasAnglesLeft, fasAnglesRight)
+
+
+library.add(fasRoad, fasVideo, fasDroplet, fabGoogle, fasGear, fasBuilding, fasChartColumn, fasDollarSign, fasAnglesLeft, fasAnglesRight, fasFacebookF, fasTwitter, fasInstagram, fasYoutube)
 createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app')
 

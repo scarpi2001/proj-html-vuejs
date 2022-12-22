@@ -1,5 +1,5 @@
 <script>
-import AppMenu from './header_components/AppMenu.vue'
+import AppMenu from './AppMenu.vue'
 import HeaderSection from './header_components/HeaderSection.vue'
 
 export default {
@@ -42,7 +42,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
     height: 80px;
   }

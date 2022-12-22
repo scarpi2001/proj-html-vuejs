@@ -87,9 +87,9 @@ export default {
 
         <!-- sponsors -->
         <div id="sponsors">
-            <figure v-for="(sponsor, index) in sponsors" :key="index">
+            <a v-for="(sponsor, index) in sponsors" :key="index" href="#">
                 <img :src="sponsor.img" :alt="sponsor.name">
-            </figure>
+            </a>
         </div>
 
     </div>
@@ -141,7 +141,7 @@ export default {
         .next {
             font-size: 28px;
             position: absolute;
-            top: 65%;
+            top: 60%;
             cursor: pointer;
         }
 
@@ -159,8 +159,8 @@ export default {
         justify-content: center;
         margin-top: 50px;
 
-        figure {
-            min-width: 80px;
+        a {
+            width: 100px;
             margin: 0 80px;
         }
     }
