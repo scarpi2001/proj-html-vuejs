@@ -6,27 +6,27 @@ export default {
       cards: [
         {
           name: "study-1",
-          img: "images/case-study-gallery-1-1-400x300.jpg",
+          img: "/case-study-gallery-1-1-400x300.jpg",
         },
         {
           name: "study-2",
-          img: "images/case-study-gallery-2-400x300.jpg",
+          img: "/case-study-gallery-2-400x300.jpg",
         },
         {
           name: "study-3",
-          img: "images/case-study-gallery-3-1-400x300.jpg",
+          img: "/case-study-gallery-3-1-400x300.jpg",
         },
         {
           name: "study-4",
-          img: "images/case-study-gallery-4-1-400x300.jpg",
+          img: "/case-study-gallery-4-1-400x300.jpg",
         },
         {
           name: "study-5",
-          img: "images/case-study-gallery-5-1-400x300.jpg",
+          img: "/case-study-gallery-5-1-400x300.jpg",
         },
         {
           name: "study-6",
-          img: "images/case-study-gallery-6-1-400x300.jpg",
+          img: "/case-study-gallery-6-1-400x300.jpg",
         },
       ],
     };

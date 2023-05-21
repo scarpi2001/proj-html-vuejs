@@ -70,17 +70,17 @@ export default {
 }
 
 .main_section.blue {
-  background-image: url(images/pattern_background.png);
+  background-image: url(/pattern_background.png);
   background-color: #051642;
 }
 
 .main_section.plans {
-  background-image: url(images/background1.jpg);
+  background-image: url(/background1.jpg);
   background-size: cover;
 }
 
 .main_section.consult {
-  background-image: url(images/CTA-seo-1.jpg);
+  background-image: url(/CTA-seo-1.jpg);
   background-size: cover;
 }
 </style>

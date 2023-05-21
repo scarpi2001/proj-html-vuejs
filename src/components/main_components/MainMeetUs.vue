@@ -48,7 +48,7 @@ export default {
       </div>
     </div>
 
-    <img src="images/agency-seo-desk-front-800x380.jpg" alt="" />
+    <img src="/agency-seo-desk-front-800x380.jpg" alt="" />
   </div>
 </template>
 

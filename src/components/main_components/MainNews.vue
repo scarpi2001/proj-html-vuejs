@@ -6,19 +6,19 @@ export default {
       cards: [
         {
           title: "Why You Need A SEO Agency Now",
-          img: "images/related-service-4-320x202.jpg",
+          img: "/related-service-4-320x202.jpg",
           date: "November 1st, 2021",
           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, facere optio nostrum consectetur",
         },
         {
           title: "SEO Tips For Your Start Up",
-          img: "images/related-service-2-320x202.jpg",
+          img: "/related-service-2-320x202.jpg",
           date: "May 16, 2022",
           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, facere optio nostrum consectetur",
         },
         {
           title: "Image Optimization For Your Site",
-          img: "images/blog-post-6-320x202.jpg",
+          img: "/blog-post-6-320x202.jpg",
           date: "November 22, 2022",
           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, facere optio nostrum consectetur",
         },
