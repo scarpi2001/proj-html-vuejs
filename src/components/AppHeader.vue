@@ -24,6 +24,7 @@ export default {
       <HeaderSection />
     </section>
   </header>
+  <!-- comment -->
 </template>
 
 <style lang="scss" scoped>
