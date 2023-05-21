@@ -1,6 +1,6 @@
 <script>
-import AppMenu from './AppMenu.vue'
-import HeaderSection from './header_components/HeaderSection.vue'
+import AppMenu from "./AppMenu.vue";
+import HeaderSection from "./header_components/HeaderSection.vue";
 
 export default {
   name: "AppHeader",
@@ -8,16 +8,14 @@ export default {
     AppMenu,
     HeaderSection,
   },
-}
-
+};
 </script>
 
 <template>
   <header>
-
     <!-- nav -->
     <nav>
-      <img src="../assets/images/logo_seo_w_1x.png" alt="">
+      <img src="/images/logo_seo_w_1x.png" alt="" />
       <AppMenu />
     </nav>
 
@@ -25,16 +23,15 @@ export default {
     <section class="container">
       <HeaderSection />
     </section>
-
   </header>
 </template>
 
 <style lang="scss" scoped>
-@use "../styles/partials/variables" as*;
+@use "../styles/partials/variables" as *;
 
 header {
   height: 800px;
-  background-image: url(../assets/images/1-hero-image.png);
+  background-image: url(/images/1-hero-image.png);
   background-size: cover;
   color: $primary;
 
@@ -53,4 +50,3 @@ header {
   }
 }
 </style>
-
