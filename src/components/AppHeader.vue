@@ -15,7 +15,7 @@ export default {
   <header>
     <!-- nav -->
     <nav>
-      <img src="/images/logo_seo_w_1x.png" alt="" />
+      <img src="images/logo_seo_w_1x.png" alt="" />
       <AppMenu />
     </nav>
 
@@ -31,7 +31,7 @@ export default {
 
 header {
   height: 800px;
-  background-image: url(/images/1-hero-image.png);
+  background-image: url(images/1-hero-image.png);
   background-size: cover;
   color: $primary;
 

@@ -10,32 +10,32 @@ export default {
           agency: "CREO TECH",
           review:
             "abilty proceeds from a fusion of skills, knowledge, understanding and imagination, consolidated by experience",
-          img: "/images/testimonials-2.jpg",
+          img: "images/testimonials-2.jpg",
         },
         {
           name: "Linda Morini",
           agency: "MEGA TECH",
           review:
             "abilty proceeds from a fusion of skills, knowledge, understanding and imagination, consolidated by experience",
-          img: "/images/testimonials-1.jpg",
+          img: "images/testimonials-1.jpg",
         },
       ],
       sponsors: [
         {
           name: "sponsor-1",
-          img: "/images/clients_partner_1-200x202.png",
+          img: "images/clients_partner_1-200x202.png",
         },
         {
           name: "sponsor-2",
-          img: "/images/clients_partner_2-200x202.png",
+          img: "images/clients_partner_2-200x202.png",
         },
         {
           name: "sponsor-3",
-          img: "/images/clients_partner_3-200x202.png",
+          img: "images/clients_partner_3-200x202.png",
         },
         {
           name: "sponsor-4",
-          img: "/images/clients_partner_4-200x202.png",
+          img: "images/clients_partner_4-200x202.png",
         },
       ],
     };

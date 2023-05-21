@@ -24,7 +24,7 @@ export default {
   <footer>
     <div class="container">
       <!--  logo -->
-      <img src="/images/logo_seo_1x.png" alt="" />
+      <img src="images/logo_seo_1x.png" alt="" />
 
       <!-- menu -->
       <nav>
